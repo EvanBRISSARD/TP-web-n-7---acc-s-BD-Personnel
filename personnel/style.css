@@ -1,0 +1,91 @@
+﻿*{
+	margin:0;
+}
+body{ 
+  display:flex; /* jusqu'à min-height compris : lignes nécessaires pour que le site occupe toute la page et le pied de page soit en bas */
+  flex-direction:column; 
+  justify-content: space-between;
+  min-height:100vh;
+  margin:0;
+}
+
+li a{
+  color:white;
+}
+a{
+    text-decoration: none;
+}
+li{
+	padding: 0px 10px;
+}
+section{
+	min-height:450px;
+	display:flex;
+}
+.titre{
+	padding : 15px 0px;
+	text-align: center;
+	font-size: 200%;
+	color:#0080FF;
+}
+.titre2{
+	padding : 15px 0px;
+	text-align: center;
+	font-size: 150%;
+	color:#0080FF;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background-color: #d1d8ac;
+	padding: 0px 5px;	
+    position: relative;
+	min-height:150px;
+}
+
+#logo{
+	position :  absolute;
+	left: 5px;
+}
+
+article{
+    text-align:center;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+footer{
+	display: flex;
+	flex-direction:column; 
+	justify-content:space-around;
+	background-color: #d1d8ac;
+    margin-top: 20px;
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+}
+table {
+	border: medium solid #6495ed;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+th {
+	border: thin solid #6495ed;
+	padding: 3px;
+	background-color: #D0E3FA;
+	background-image: url(sky.jpg);
+}
+td {
+	border: thin solid #6495ed;
+	padding: 3px 10px;
+	text-align: center;
+	background-color: #ffffff;
+}
+caption {
+	font-family: sans-serif;
+}
+
